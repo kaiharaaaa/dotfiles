@@ -1,0 +1,49 @@
+LineLength:
+  Description: 'Limit lines to 79 characters.'
+  Enabled: false
+
+MethodLength:
+  Description: 'Avoid methods longer than 10 lines of code.'
+  Enabled: false
+
+ClassLength:
+  Description: 'Avoid classes longer than 100 lines of code.'
+  Enabled: false
+
+ClassVars:
+  Description: 'Avoid the use of class variables.'
+  Enabled: false
+
+GlobalVars:
+  Description: 'Do not introduce global variables.'
+  Enabled: false
+
+NumericLiterals:
+  Description: >-
+    Add underscores to large numeric literals to improve their
+    readability.
+  Enabled: false
+
+GuardClause:
+  Description: 'Check for conditionals that can be replaced with guard clauses'
+  Enabled: false
+
+RegexpLiteral:
+  Description: >-
+    Use %r for regular expressions matching more than
+    `MaxSlashes` '/' characters.
+    Use %r only for regular expressions matching more than
+    `MaxSlashes` '/' character.
+  Enabled: false
+
+WordArray:
+  Description: 'Use %w or %W for arrays of words.'
+  Enabled: true
+
+Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+LeadingCommentSpace:
+  Description: 'Comments should start with a space.'
+  Enabled: true

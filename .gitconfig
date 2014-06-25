@@ -1,0 +1,12 @@
+[user]
+  name  = kaihara
+  email = kaihara.foobar@gmail.com
+
+[color]
+  ui = auto
+
+[core]
+  excludesfile = ~/.gitignore
+
+[http]
+  sslVerify = false
